@@ -214,7 +214,7 @@ parsing semantic actions which contain it, e.g.:-
 
     Integer.matchAll('4210', 'Process');
 
-Note that the parentheses can be of the round or curly variety here, it's a matter of which you
+Note that the braces can be of the round or curly variety here, it's a matter of which you
 prefer.
 
 ### Notes ###
