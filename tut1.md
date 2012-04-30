@@ -130,7 +130,7 @@ Let's look at our example program again:-
 
     ometa Integer {
         Dig =
-            '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9',    
+            '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9',
         Process =
             Dig Dig*
     }
@@ -161,7 +161,7 @@ Our grammar isn't all that useful right now, so let's make it actually do someth
 
     ometa Integer {
         Dig =
-            '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9',    
+            '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9',
         Process =
             Dig:d Dig*:r -> [d].concat(r)
     }
